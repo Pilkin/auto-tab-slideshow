@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/popup.css" />
+		
+	<script type="text/javascript" src="js/mootools-1.11.js"></script>
+	<script type="text/javascript" src="js/ts.popup.js"></script>
+	<script type="text/javascript" src="js/ts.analytics.js"></script>
+</head>
+<body>
+	<form id="intervalForm">
+		<div>
+			<label for="interval">Tab Slideshow Interval (in seconds):</label>
+			<input class="text" type="text" id="interval" name="interval" size="1" />
+		</div>
+		<div id="buttons">
+			<input class="button" type="button" name="begin" id="begin" value="Begin" />
+			<input class="button" type="button" name="pause" id="pause" value="Stop" />
+			<input class="button" type="button" name="close" id="close" value="Close" />
+		</div>
+	</form>
+	<div id="notes">
+		<h3>Note:</h3>
+		<ul>
+			<li>Creating or closing a new tab in any window will pause the slideshow</li>
+			<li>Creating a new window will pause the slideshow</li>
+			<li>There are some quirks that need ironed out.  Just so you know.</li>
+		</ul>
+	 </div>
+</body>
+</html>
